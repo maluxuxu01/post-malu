@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Consultar animes</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/get.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Consultar Anime</h1>
+        <p>Pratica com o metodo GET: buscar e exibir os animes da API do codeverse</p>
+    </header>
+    <main>
+        <a href="pages/cadastro.html"> ir para cadastro</a>
+    <section id="conteiner-titulo-lista">
+        <h2 id="titulo-da-lista">Animes Cadastrados</h2>
+        <p> os animes são carregados automaticamente ao iniciar a pagina</p>
+        <p id="resposta"></p>
+        <ul id="lista-animes"></ul>
+    </section>
+    </main>
+
+    <template id="modelo-animes">
+        <li>
+            <section class="card-capa">
+                <img alt="" />
+            </section>
+            <section class="card-conteudo">
+                <h3 class="tittle"></h3>
+                <p><strong>Gênero:</strong><span class="genero"> </span></p>
+                <p><strong>Número de Episódios:</strong><span class="numero_episodios"> </span></p>
+                <p><strong>Ano de Lançamento:</strong><span class="ano_lancamento"> </span></p>
+                <p><strong>Estúdio:</strong><span class="estudio"> </span></p>
+            </section>
+        </li>
+    </template>
+</body>
+</html>
