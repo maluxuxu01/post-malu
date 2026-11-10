@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #252545;
+    background-color: #363660;
     color: white;
     text-align: center;
     padding: 20px;
@@ -37,7 +37,7 @@ header {
 }
 
 #lista-animes li {
-    background-color: rgb(45, 83, 118);
+    background-color: #363660;
     border-radius: 10px;
     padding: 25px;
     width: 27%;
